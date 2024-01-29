@@ -26,7 +26,7 @@ pipeline {
         stage('Visit /health route') {
             steps {
                 script {
-                    sh 'curl http://localhost:4000/health'
+                    sh 'curl http://localhost:3000/health'
                 }
             }
         }
